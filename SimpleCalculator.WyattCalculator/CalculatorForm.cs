@@ -24,7 +24,7 @@ namespace SimpleCalculator.WyattCalculator
             {
                 int x = Convert.ToInt32(txtBtn_heightEntry.Text);
                 int y = Convert.ToInt32(txtBtn_widthEntry.Text);
-                int answer = x * y;
+                int answer = 2*(x * y);
                 if (radBtn_english.Checked == true)
                 {
                     Form solutionForm = new SolutionForm(answer, "feet");
